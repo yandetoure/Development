@@ -191,3 +191,54 @@ nav li:last-child a {
     margin: 5px;
     border-radius: 5px 5px 5px 5px;
 }
+
+.even{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-right: 10vh;
+    margin-left: 30vh;
+    /* padding-right: 10vh;
+    padding-left: 10vh; */
+}
+.evenement{
+    color: white;
+}
+
+.even1{
+    width: 110vh;
+    /* padding-right: 10px;
+    padding-left: 10px; */
+    margin-right: 10px;
+    display: flex;
+    background-color:#ee1d48;
+}
+/* .even1 h5,.even2 h5{
+    margin-left: 10vh;
+} */
+.even2{
+    width: 110vh;
+    padding-top: 2px;
+    /* padding-right: 10px;
+    padding-left: 10px; */
+    margin-right: 20vh;
+    display: flex;
+    background-color:#ee1d48;
+}
+.mois{
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+.date{
+    padding-right: 10px;
+    padding-top: 2px;
+}
+.date p span{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.even p{
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 10px;
+}
