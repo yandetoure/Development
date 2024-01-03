@@ -1,0 +1,61 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal; 
+}
+.banière{
+    position: relative;
+    width: 100%;
+}
+.image26{
+    filter: brightness(70%);
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+.texte_description{
+    position: absolute;
+    bottom: 50px; /* Ajuste la position verticale */
+    right: 50%; /* Ajuste la position horizontale*/
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+
+}
+.button-contact{
+    background-color: rgb(194, 10, 10);
+    color: white;
+    padding: 16px 25px; /* Remplissage intérieur du bouton */
+    font-size: 16px;
+    border: none; /* Supprimer la bordure */
+    border-radius: 25px 25px 25px 25px; /* Coins arrondis */
+}
+.button-passage{
+    text-align: center; /* Aligne les boutons au centre horizontalement */
+    padding-top: 150px;
+    padding-left: 550px;
+}
+.button-rond{
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: 5px;
+}
+.button-rectangle{
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 5px 5px 5px 5px;
+}
