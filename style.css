@@ -321,3 +321,75 @@ hr{
     margin-top: 299px;
     margin-left: 10px;
 }
+.histoire{
+    display: flex;
+    margin-top: 150px;
+    padding: 100px;
+}
+.alumni{
+    display: flex;
+    margin-top: 100px;
+    padding: -5vh;
+}
+.video{
+    margin-left: 150px;
+    height: 300px;
+    width: 500px;
+
+}
+.time{
+    height: 20px;
+    width: 40px;
+    color: #FFF;
+    background-color: #ee1d48;
+    transform: translate(-50%, -50%);
+    margin-top: -70px;
+    margin-left: 350px;
+    padding:5px 15px 30px 15px;
+  
+}
+#play,#play1{
+    height: 75px;
+    width: 75px;
+    opacity: 0.65;
+    margin-bottom: 120px;
+    margin-left: -250px;
+}
+#apprenant,#apprenant1{
+    height: 300px;
+}
+#apprenant1{
+    width: 350px;
+
+}
+h4{
+    position: absolute;
+    background-color: #ee1d48;
+    color: #FFF;
+    width: 250px;
+    padding-right: -2vh;
+    padding-left: 5vh;
+    margin-left: -10vh;
+    border: #ee1d48 1px solid;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.video p:last-child{
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: larger;
+    border-top: #ee1d48 7px solid;
+}
+.texte{
+    margin-left: 50px;
+    font-size: larger;
+    line-height: 1.5;
+}
+.texte1{
+    margin-left: 250px;
+    font-size: larger;
+    line-height: 1.5;
+}
+.texte h1,.texte1 h1{
+    color: #ee1d48;
+}
