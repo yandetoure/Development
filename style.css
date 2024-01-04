@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     font-weight: normal;
     font-style: normal; 
     font-family: Arial, sans-serif;
@@ -280,7 +280,7 @@ button{
 .image{
     height: 150px;
     width: 150px;
-    background-image: url("19.png");
+    background-image: url("Images/19.png");
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -326,7 +326,7 @@ hr{
     margin-top: 150px;
     padding: 100px;
 }
-.alumni{
+.alumni,.petitehistoire{
     display: flex;
     margin-top: 100px;
     padding: -5vh;
@@ -337,17 +337,23 @@ hr{
     width: 500px;
 
 }
+
 .time{
     height: 20px;
-    width: 40px;
+    width: 60px;
     color: #FFF;
     background-color: #ee1d48;
     transform: translate(-50%, -50%);
-    margin-top: -70px;
-    margin-left: 350px;
+    margin-top: -50px;
+    margin-left: 300px;
     padding:5px 15px 30px 15px;
   
 }
+.time h3{
+    margin-top: 6px;
+    margin-left: -3px;
+}
+
 #play,#play1{
     height: 75px;
     width: 75px;
@@ -367,6 +373,7 @@ h4{
     background-color: #ee1d48;
     color: #FFF;
     width: 250px;
+    height: 50px;
     padding-right: -2vh;
     padding-left: 5vh;
     margin-left: -10vh;
@@ -486,3 +493,4 @@ textarea {
     height: 30px;
     width: 30px;
 }
+                                       
