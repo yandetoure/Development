@@ -292,7 +292,7 @@ h4{
     margin-top: -4.75vh;
     margin-left: 10px;
 }
-.pedagogie{
+.pedagogie,.voyage{
     display: flex;
     justify-content: center;
     /* margin-top: 10px; */
@@ -305,14 +305,13 @@ h4{
     width: 500px;
     height: 270px;
     margin-left: 2px;
-    border: 1px solid black;
     margin-top: 2px;
 }
 .peda{
     color: #ee1d48;
     text-align: center;
 }
-.texte2 h2{
+.texte2 h2,.texte2 h3{
     color: #ee1d48;
 }
 .texte2{
