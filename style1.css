@@ -320,3 +320,44 @@ h4{
     font-size: larger;
     line-height: 1.5;
 }
+
+.equipe{
+    background-color: rgb(250, 250, 250);
+
+}
+.headequipe{
+    text-align: center;
+}
+#headequipe{
+    color: #ce0033;
+}
+.headequipe b{
+    color: #ce0033;
+}
+.Formateur{
+    display: flex;
+    justify-content: center;
+}
+.formateur{
+    background-color: white;
+    /* Ombre avec une couleur blanche */
+box-shadow: 5px 5px 10px 0px white;
+
+    text-align: center;
+    border: white 1px solid;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+.image{
+    width: 180px;
+    border-radius: 200px;
+
+}
+
+#form1{
+    margin-top: 15px;
+}
+
