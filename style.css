@@ -242,3 +242,154 @@ nav li:last-child a {
     text-align: center;
     margin-bottom: 10px;
 }
+
+.Formateur{
+    display: flex;
+    background-color: whitesmoke;
+    padding-left: 100px;
+    padding-right: 30px;
+    height: 100px;
+}
+.formateur1{
+    display: flex;
+}
+/* .Formateur p,.Formateur h1{
+    margin-top: 40px;
+} */
+.fleche{
+    background-color: #fff;
+    padding: 2px;
+}
+button{
+    position: absolute;
+        margin-top: 30vh;
+        margin-left: -3vh;
+        background-color: #ee1d48;
+        color:#fff;
+        border: #ee1d48 1px solid;
+        border-radius: 10px;
+}
+.form{
+    background-color: #fff;
+    margin-top: 50px;
+    border: #fff 1px solid;
+    border-radius: 10px;
+    padding-right: 30px;
+    padding-left: 30vh;
+}
+.image{
+    height: 150px;
+    width: 150px;
+    background-image: url("19.png");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+hr{
+    width: 200px;
+    margin-left: 0;
+}
+#formateur1{
+    margin-right: 50px;
+}
+.rafetal{
+    display: flex;
+    margin-left: -100vh;
+}
+.point{
+    background-color: #ee1d48;
+    width: 10px;
+    height: 10px;
+    border: #ee1d48 1px solid;
+    border-radius: 15px;
+    margin-top: 299px;
+}
+#point{
+    margin-right: 10px;
+
+}
+.trait{
+    width: 30px;
+    height: 8px;
+    background-color: #ee1d48;
+    border: #ee1d48 1px solid;
+    border-radius: 10Px;
+    margin-top: 299px;
+    margin-left: 10px;
+}
+.histoire{
+    display: flex;
+    margin-top: 150px;
+    padding: 100px;
+}
+.alumni{
+    display: flex;
+    margin-top: 100px;
+    padding: -5vh;
+}
+.video{
+    margin-left: 150px;
+    height: 300px;
+    width: 500px;
+
+}
+.time{
+    height: 20px;
+    width: 40px;
+    color: #FFF;
+    background-color: #ee1d48;
+    transform: translate(-50%, -50%);
+    margin-top: -70px;
+    margin-left: 350px;
+    padding:5px 15px 30px 15px;
+  
+}
+#play,#play1{
+    height: 75px;
+    width: 75px;
+    opacity: 0.65;
+    margin-bottom: 120px;
+    margin-left: -250px;
+}
+#apprenant,#apprenant1{
+    height: 300px;
+}
+#apprenant1{
+    width: 350px;
+
+}
+h4{
+    position: absolute;
+    background-color: #ee1d48;
+    color: #FFF;
+    width: 250px;
+    padding-right: -2vh;
+    padding-left: 5vh;
+    margin-left: -10vh;
+    border: #ee1d48 1px solid;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.video p:last-child{
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: larger;
+    border-top: #ee1d48 7px solid;
+}
+.texte{
+    margin-left: 50px;
+    font-size: larger;
+    line-height: 1.5;
+}
+.texte1{
+    margin-left: 250px;
+    font-size: larger;
+    line-height: 1.5;
+}
+.texte h1,.texte1 h1{
+    color: #ee1d48;
+}
