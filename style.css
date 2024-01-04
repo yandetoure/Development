@@ -280,7 +280,7 @@ button{
 .image{
     height: 150px;
     width: 150px;
-    background-image: url("19.png");
+    background-image: url("Images/19.png");
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -392,4 +392,97 @@ h4{
 }
 .texte h1,.texte1 h1{
     color: #ee1d48;
+}
+.Formulaire{
+    display: flex;
+    justify-content: center;
+}
+.h1{
+    text-align: center;
+    color: #ee1d48;
+    margin-top: 120px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px 60px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.full-width {
+    width: 275px;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.button1 {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 60px;
+    margin-top: 5vh;
+    font-size: larger;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #45a049;
+}
+.nom,.mail{
+    display: flex;
+}
+#prenom,#telephone{
+    margin-left: 10px;
+}
+textarea {
+    padding: 10px;
+    /* margin-bottom: 2px; */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#case{
+    display: flex;
+}
+#agree{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+#case b{
+    color: #ee1d48;
+}
+
+#case label{
+    margin-top: 5px;
+    font-size: 18px;
+}
+.coordonnees{
+    margin-top: 40px;
+    line-height: 2;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+.Formulaire img{
+    height: 30px;
+    width: 30px;
 }
