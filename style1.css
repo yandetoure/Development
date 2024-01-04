@@ -1,0 +1,267 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-style: normal; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    display: flex;
+}
+/* .ban{
+    position: absolute;
+    width: 100%;
+
+} */
+.logo img{
+    display: block;
+    font-size: 24px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-top: 50px;
+    text-decoration: none;
+    height: 50px;
+    width: 150px;
+}
+
+nav {
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 50px 0 0 300px;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+.home{
+    border-bottom: #ee1d48 solid 3px;
+}
+.search-icon{
+    margin: 5px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+nav li a, .dropbtn {
+    font-weight:bold;
+    display: inline-block;
+    color: #101820;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+}
+
+nav li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #101820;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+/* .dropdown-content a:hover {
+    background-color: red;
+} */
+.dropdown .dropbtn {
+    color: #ff0000; /* Rouge pour la flèche au survol */
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.section1 .contact{
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+    border-radius: 15px;
+
+}
+nav li:last-child a {
+    color: white; /* Couleur blanche pour le texte "Contact" */
+}
+
+
+/* body {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal; 
+} */
+.banière{
+    position: relative;
+    width: 100%;
+}
+.image26{
+    filter: brightness(70%);
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+.texte_description{
+    position: absolute;
+    bottom: 50px; /* Ajuste la position verticale */
+    right: 50%; /* Ajuste la position horizontale*/
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+
+}
+.button-contact{
+    background-color: rgb(194, 10, 10);
+    color: white;
+    padding: 16px 25px; /* Remplissage intérieur du bouton */
+    font-size: 16px;
+    border: none; /* Supprimer la bordure */
+    border-radius: 25px 25px 25px 25px; /* Coins arrondis */
+}
+.button-passage{
+    text-align: center; /* Aligne les boutons au centre horizontalement */
+    padding-top: 150px;
+    padding-left: 550px;
+}
+.button-rond{
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: 5px;
+}
+.button-rectangle{
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+.point{
+    background-color: #ee1d48;
+    width: 10px;
+    height: 10px;
+    border: #ee1d48 1px solid;
+    border-radius: 15px;
+    margin-top: 299px;
+}
+#point{
+    margin-right: 10px;
+
+}
+.trait{
+    width: 30px;
+    height: 8px;
+    background-color: #ee1d48;
+    border: #ee1d48 1px solid;
+    border-radius: 10Px;
+    margin-top: 299px;
+    margin-left: 10px;
+}
+
+.petitehistoire{
+    display: flex;
+    margin-top: 100px;
+    padding: -5vh;
+}
+.video{
+    margin-left: 150px;
+    height: 300px;
+    width: 500px;
+
+}
+
+.time{
+    height: 20px;
+    width: 60px;
+    color: #FFF;
+    background-color: #ee1d48;
+    transform: translate(-50%, -50%);
+    margin-top: -50px;
+    margin-left: 300px;
+    padding:5px 15px 30px 15px;
+  
+}
+.time h3{
+    margin-top: 6px;
+    margin-left: -3px;
+}
+
+#play,#play1{
+    height: 75px;
+    width: 75px;
+    opacity: 0.65;
+    margin-bottom: 120px;
+    margin-left: -250px;
+}
+#apprenant,#apprenant1{
+    height: 300px;
+}
+#apprenant1{
+    width: 350px;
+
+}
+h4{
+    position: absolute;
+    background-color: #ee1d48;
+    color: #FFF;
+    width: 250px;
+    height: 50px;
+    padding-right: -2vh;
+    padding-left: 5vh;
+    margin-left: -10vh;
+    border: #ee1d48 1px solid;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.video p:last-child{
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: larger;
+    border-top: #ee1d48 7px solid;
+}
+.texte{
+    margin-left: 50px;
+    font-size: larger;
+    line-height: 1.5;
+}
+.texte1{
+    margin-left: 250px;
+    font-size: larger;
+    line-height: 1.5;
+}
+.texte h1,.texte1 h1{
+    color: #ee1d48;
+}
+
+                                       
