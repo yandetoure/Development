@@ -192,6 +192,95 @@ nav li:last-child a {
     border-radius: 5px 5px 5px 5px;
 }
 
+.Nouv{
+    text-align: center;
+    color: rgb(194, 10, 10);
+}
+.Actualité1{
+    text-align: left;
+    color: rgb(194, 10, 10);
+}
+.Actus{
+    position: relative;
+    display: inline-block;
+    margin: 18px;
+}
+.Actusimg{
+    width: 300px;
+    height: 200px;
+    display: block;
+    border: 1px solid #ddd; /* Ajoutez une bordure pour plus de visibilité */
+    border-radius: 8px; /* Coins arrondis, facultatif */
+    
+}
+/*.Actualité2 p{
+    max-width: 600px; /* Ajustez la largeur selon vos besoins */
+    /*margin: 0 auto; /* Centre le texte horizontalement 0 auto*/
+    /*padding: 15px;
+}*/
+
+.Actusp{
+    color:rgb(109, 107, 107);
+}
+.date-label {
+    position:absolute;
+    /*text-align: center;*/
+    bottom: 310px;
+    left:230px;
+    padding: 9px;
+    padding-top: 3px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(194, 10, 10);
+    border: none;
+    border-radius: 0 0 25px 25px;
+    width: 40px;
+    height: 50px;
+    
+
+}
+
+/* Style pour le jour (en haut) */
+.day {
+    display: block;
+    font-weight: bold;
+    padding-top:7px;
+}
+
+/* Style pour le mois (en bas) */
+.month {
+    display: block;
+    margin-top: 0px; /* Ajustez cette valeur selon vos besoins pour le positionnement */
+    font-size: 7px;
+    opacity: 1;
+    letter-spacing: 2px;
+}
+.Actusplus{
+    display: flex;
+    align-items: center;
+    margin-left: 1200px;
+}
+.Actusplush2{
+    color:rgb(194, 10, 10);
+}
+.button-Actusplus{
+    background-color: rgb(194, 10, 10);
+    color: white;
+    font-size: 16px;
+    border: none; /* Supprimer la bordure */
+    border-radius: 50%; /* Coins arrondis */
+    width: 45px;
+    height: 45px;
+    margin:12px;
+}
+.plus{
+    font-weight: bold;
+    font-size: 40px;
+    margin:-12px;
+    margin-top: -18px;
+}
+
 .even{
     width: 70%;
     display: flex;
