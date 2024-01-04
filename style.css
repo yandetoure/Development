@@ -59,7 +59,7 @@ body {
     margin: 5px;
     border-radius: 5px 5px 5px 5px;
 }
-.Nouvelle{
+.Nouv{
     text-align: center;
     color: rgb(194, 10, 10);
 }
@@ -85,6 +85,7 @@ body {
     /*margin: 0 auto; /* Centre le texte horizontalement 0 auto*/
     /*padding: 15px;
 }*/
+
 .Actusp{
     color:rgb(109, 107, 107);
 }
@@ -145,4 +146,206 @@ body {
     font-size: 40px;
     margin:-12px;
     margin-top: -18px;
+}
+
+.even{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-right: 10vh;
+    margin-left: 30vh;
+    /* padding-right: 10vh;
+    padding-left: 10vh; */
+}
+.evenement{
+    color: white;
+}
+
+.even1{
+    width: 110vh;
+    /* padding-right: 10px;
+    padding-left: 10px; */
+    margin-right: 10px;
+    display: flex;
+    background-color:#ee1d48;
+}
+/* .even1 h5,.even2 h5{
+    margin-left: 10vh;
+} */
+.even2{
+    width: 110vh;
+    padding-top: 2px;
+    /* padding-right: 10px;
+    padding-left: 10px; */
+    margin-right: 20vh;
+    display: flex;
+    background-color:#ee1d48;
+}
+.mois{
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+.date{
+    padding-right: 10px;
+    padding-top: 2px;
+}
+.date p span{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.even p{
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Formateur{
+    display: flex;
+    background-color: whitesmoke;
+    padding-left: 100px;
+    padding-right: 30px;
+    height: 100px;
+}
+.formateur1{
+    display: flex;
+}
+/* .Formateur p,.Formateur h1{
+    margin-top: 40px;
+} */
+.fleche{
+    background-color: #fff;
+    padding: 2px;
+}
+button{
+    position: absolute;
+        margin-top: 30vh;
+        margin-left: -3vh;
+        background-color: #ee1d48;
+        color:#fff;
+        border: #ee1d48 1px solid;
+        border-radius: 10px;
+}
+.form{
+    background-color: #fff;
+    margin-top: 50px;
+    border: #fff 1px solid;
+    border-radius: 10px;
+    padding-right: 30px;
+    padding-left: 30vh;
+}
+.image{
+    height: 150px;
+    width: 150px;
+    background-image: url("19.png");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+hr{
+    width: 200px;
+    margin-left: 0;
+}
+#formateur1{
+    margin-right: 50px;
+}
+.rafetal{
+    display: flex;
+    margin-left: -100vh;
+}
+.point{
+    background-color: #ee1d48;
+    width: 10px;
+    height: 10px;
+    border: #ee1d48 1px solid;
+    border-radius: 15px;
+    margin-top: 299px;
+}
+#point{
+    margin-right: 10px;
+
+}
+.trait{
+    width: 30px;
+    height: 8px;
+    background-color: #ee1d48;
+    border: #ee1d48 1px solid;
+    border-radius: 10Px;
+    margin-top: 299px;
+    margin-left: 10px;
+}
+.histoire{
+    display: flex;
+    margin-top: 150px;
+    padding: 100px;
+}
+.alumni{
+    display: flex;
+    margin-top: 100px;
+    padding: -5vh;
+}
+.video{
+    margin-left: 150px;
+    height: 300px;
+    width: 500px;
+
+}
+.time{
+    height: 20px;
+    width: 40px;
+    color: #FFF;
+    background-color: #ee1d48;
+    transform: translate(-50%, -50%);
+    margin-top: -70px;
+    margin-left: 350px;
+    padding:5px 15px 30px 15px;
+  
+}
+#play,#play1{
+    height: 75px;
+    width: 75px;
+    opacity: 0.65;
+    margin-bottom: 120px;
+    margin-left: -250px;
+}
+#apprenant,#apprenant1{
+    height: 300px;
+}
+#apprenant1{
+    width: 350px;
+
+}
+h4{
+    position: absolute;
+    background-color: #ee1d48;
+    color: #FFF;
+    width: 250px;
+    padding-right: -2vh;
+    padding-left: 5vh;
+    margin-left: -10vh;
+    border: #ee1d48 1px solid;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.video p:last-child{
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: larger;
+    border-top: #ee1d48 7px solid;
+}
+.texte{
+    margin-left: 50px;
+    font-size: larger;
+    line-height: 1.5;
+}
+.texte1{
+    margin-left: 250px;
+    font-size: larger;
+    line-height: 1.5;
+}
+.texte h1,.texte1 h1{
+    color: #ee1d48;
 }
