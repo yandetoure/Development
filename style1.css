@@ -189,12 +189,24 @@ nav li:last-child a {
     margin-left: 10px;
 }
 
+#petitehistoire{
+    text-align: center;
+    color: #ee1d48;
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+}
+
 .petitehistoire{
     display: flex;
+    justify-content: center;
     margin-top: 100px;
-    padding: -5vh;
+    padding: 5vh 2vh 2vh 5vh;
+    background-color: #D3D3D3;
+    margin-left:150px;
+    margin-right: 150px;
 }
 .video{
+    margin-top: 60px;
     margin-left: 150px;
     height: 300px;
     width: 500px;
@@ -217,32 +229,27 @@ nav li:last-child a {
     margin-left: -3px;
 }
 
-#play,#play1{
-    height: 75px;
-    width: 75px;
-    opacity: 0.65;
-    margin-bottom: 120px;
-    margin-left: -250px;
-}
+
 #apprenant,#apprenant1{
-    height: 300px;
+    height: 350px;
 }
 #apprenant1{
-    width: 350px;
+    width: 450px;
 
 }
 h4{
+    font-size: large;
     position: absolute;
     background-color: #ee1d48;
     color: #FFF;
-    width: 250px;
+    width: 100px;
     height: 50px;
-    padding-right: -2vh;
-    padding-left: 5vh;
-    margin-left: -10vh;
+    padding-left: 42px;
+    padding-right: 72px;
+    padding-top: 15px;
+    margin-left: 48vh;
     border: #ee1d48 1px solid;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+
 }
 .video p:last-child{
     margin-top: 20px;
@@ -256,12 +263,38 @@ h4{
     line-height: 1.5;
 }
 .texte1{
-    margin-left: 250px;
+    margin-left: 150px;
     font-size: larger;
     line-height: 1.5;
 }
 .texte h1,.texte1 h1{
     color: #ee1d48;
 }
+.rafetal{
+    display: flex;
+    margin-left: 100vh;
+}
+.point{
+    background-color: #ee1d48;
+    width: 2vh;
+    height: 2vh;
+    border: #ee1d48 1px solid;
+    border-radius: 15px;
+    margin-top: -5vh;
+}
+#point{
+    margin-right: 10px;
+
+}
+.trait{
+    width: 30px;
+    height: 10px;
+    background-color: #ee1d48;
+    border: #ee1d48 1px solid;
+    border-radius: 10Px;
+    margin-top: -4.75vh;
+    margin-left: 10px;
+}
+
 
                                        
