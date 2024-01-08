@@ -517,6 +517,22 @@ hr{
     margin-bottom: 120px;
     margin-left: -250px;
 }
+.section-histoire{
+    margin-top: 30px;
+        display: flex;
+        padding-left: 10%;
+}
+
+    .section-histoire .texte-contenaire{
+        width: 80%;
+        line-height: 1.9;
+        font-size: 30px;
+}
+.titre-formateurs{
+    color: #cf3034;
+    font-size: 32px;
+    margin-left: 50px;
+}
 #apprenant,#apprenant1{
     height: 300px;
 }
