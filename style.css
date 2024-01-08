@@ -331,7 +331,26 @@ nav li:last-child a {
     text-align: center;
     margin-bottom: 10px;
 }
-
+.image-container {
+    color: white;
+    height: 50%;
+    font-family: Arial, sans-serif;
+    background-image: url('Images/35.png'); /* Remplacez avec le chemin de votre image */
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout l'élément body */
+    background-position: center; /* Centre l'image horizontalement */
+    background-repeat: no-repeat; 
+}
+.image-container p{
+    padding-bottom: 190px;
+}
+.overflay-box {
+width: 80%;
+    height: 200px;
+/* Rouge transparent */
+    color: #fff; /* Texte blanc */
+    text-align: center;
+   /* Centrer le texte verticalement */
+}
 .resultat{
     position: absolute;
     display: flex;
@@ -505,19 +524,7 @@ hr{
     width: 350px;
 
 }
-h4{
-    position: absolute;
-    background-color: #ee1d48;
-    color: #FFF;
-    width: 250px;
-    height: 50px;
-    padding-right: -2vh;
-    padding-left: 5vh;
-    margin-left: -10vh;
-    border: #ee1d48 1px solid;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
+
 .video p:last-child{
     margin-top: 20px;
     font-weight: bolder;
