@@ -654,79 +654,170 @@ hr{
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-.form-group {
-    margin-bottom: 20px;
+/* code footer */
+.nous-contacter{
+    input{
+        background-color: rgb(255,255,255);
+    }
 }
-
-.full-width {
-    width: 275px;
-}
-
-label {
-    margin-bottom: 8px;
-}
-
-input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-}
-
-.button1 {
-    background-color: #4caf50;
-    color: white;
-    padding: 15px 60px;
-    margin-top: 5vh;
-    font-size: larger;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.button1:hover {
-    background-color: #45a049;
-}
-.nom,.mail{
+footer {
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color:#000;
+    color: #ffff;
     display: flex;
+    justify-content: space-around;
 }
-#prenom,#telephone{
-    margin-left: 10px;
-}
-textarea {
-    padding: 10px;
-    /* margin-bottom: 2px; */
-    border: 1px solid #ccc;
-    border-radius: 8px;
-}
-
-#case{
+.nous-contacter{
+    margin-bottom: 90px;
     display: flex;
+    justify-content: space-evenly;
 }
-#agree{
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-}
-#case b{
-    color: #ee1d48;
+.carte2 {
+    display: grid;
 }
 
-#case label{
-    margin-top: 5px;
+.carte1 {
+    display: grid;
+}
+
+.carte2 a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+a:hover {
+    color: #cf3034;
+}
+
+.social1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.social1 img{
+    margin: 10px;
+}
+
+.carte3 p {
+    font-size: 20px;
+}
+
+.carte4 p {
+    font-size: 20px;
+}
+
+.Newsletter {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.Newsletter .input {
+    background-color: #ffff;
+    border-radius: 15px 0px 0px 15px;
+    margin-right: 0px;
+    padding-right: 8px;
+    width: 200px;
+    height: 50px;
+}
+
+.Newsletter input {
     font-size: 18px;
+    color: #ffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 1px transparent;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #cf3034;
+    width: 100px;
+    height: 50px;
 }
-.coordonnees{
-    margin-top: 40px;
-    line-height: 2;
-    background-color: #fff;
-    border: none;
-    border-radius: 10px;
+.h1nº1{
+    display: flex;
+    font-size: 48px;
+    color: #cf3034;
+    justify-content: center;
 }
-.Formulaire img{
-    height: 30px;
-    width: 30px;
+.copy {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    background-color: #cf3034;
 }
-                                       
+     /* code footer */
+
+footer {
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color:#000;
+    color: #ffff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.carte1 {
+    display: grid;
+}
+
+.carte2 a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+a:hover {
+    color: #cf3034;
+}
+
+.social1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.social1 img{
+    margin: 10px;
+}
+
+.carte3 p {
+    font-size: 20px;
+}
+
+.carte4 p {
+    font-size: 20px;
+}
+
+.Newsletter {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.Newsletter .input {
+    background-color: #ffff;
+    border-radius: 15px 0px 0px 15px;
+    margin-right: 0px;
+    padding-right: 8px;
+    width: 200px;
+    height: 50px;
+}
+
+.Newsletter input {
+    font-size: 18px;
+    color: #ffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 1px transparent;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #cf3034;
+    width: 100px;
+    height: 50px;
+}
+
+.copy {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    background-color: #cf3034;
+}                                  
