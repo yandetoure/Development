@@ -540,7 +540,83 @@ hr{
     width: 350px;
 
 }
+.equipe{
+    display: flex;
+    justify-content: space-evenly;
+}
+#section-histoire1{
+    margin-top: -100px;
+}
+.formateur-equipe{
+    width: 320px;
+    height: 380px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 3px 4px rgba(98, 94, 94, 0.18);
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    border-radius: 0px 0px 20px 20px;
+    display: grid;
+}
+.formateur-equipe p{
+    text-align: left;
+    padding-top: 22px;
+    padding-left: 30px;
+    line-height: 1.5;
+}
+.footer-title h2{
+    text-align: start;
+}
+.footer-title p{
+    text-align: start;
+}
+.formateur-footer{
+    display: flex;
+    padding-left: 3px;
+}
+.formateur-footer img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.footer-title{
+    padding-left: 10px;
+}
+.section-histoire{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.image-contenaire{
+    width: 1200px;
+    height: 600px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 3px 4px rgba(98, 94, 94, 0.18);
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    border-radius: 0px 0px 20px 20px;
+}
+.image-contenaire img{
 
+    border-bottom: 8px solid #cf3034;
+    width: 100%;
+    height:80%;
+}
+.image-contenaire h3{
+    margin-top: 30px;
+    margin-left: -40px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background: #cf3034;
+    color: #ffff;
+    width: 300px;
+    height: 35px;
+    position: absolute;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 0px 1px 1px 1px rgba(130, 128, 128, 0.499);
+
+}
 .video p:last-child{
     margin-top: 20px;
     font-weight: bolder;
