@@ -1,6 +1,3 @@
-*, *::before, *::after{
-    box-sizing: border-box;
-}
 body {
     font-family: sans-serif;
     font-weight: normal;
@@ -105,49 +102,11 @@ nav li.dropdown {
 nav li:last-child a {
     color: white; /* Couleur blanche pour le texte "Contact" */
 }
-
-.section3{
-    display: flex;
-    /* margin-right: 10vh;
-    margin-left: 10vh; */
-    padding-left: 30vh;
-    background-color:#fdf7f8;
-}
-.section3 img{
-    margin-left: 10vh;
-    margin-right: 10vh;
-    margin-top: 1px;
-    width: 25%;
-    border-radius: 30Px;
-
-}
-.texte_numerique{
-    margin-top: 1px;
-    line-height: 1.95;
-    font-weight: bolder;
-    width: 35%;
-}
-.texte_numerique h1{
-    color: #ee1d48;
-}
-.section3 img{
-    height: 500px;
-    }
-/* body {
-    font-family: Arial, sans-serif;
-    font-weight: normal;
-    font-style: normal; 
-} */
 .banière{
     position: relative;
     width: 100%;
 }
-.image26{
-    filter: brightness(70%);
-    width: 100%;
-    height: 600px;
-    display: block;
-}
+
 .texte_description{
     position: absolute;
     bottom: 50px; /* Ajuste la position verticale */
@@ -191,6 +150,45 @@ nav li:last-child a {
     margin: 5px;
     border-radius: 5px 5px 5px 5px;
 }
+.image26{
+    height: 800px;
+    width: 100%;
+}
+.section3{
+    display: flex;
+    /* margin-right: 10px;
+    margin-left: 10px; */
+    padding-left: 30px;
+    background-color:#fdf7f8;
+}
+.section3{
+    height: 700px;
+    width: auto;
+}
+.section3 img{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 1px;
+    width: 60%;
+    border-radius: 30px;
+    height: 600px;
+
+}
+.texte_numerique{
+    margin-top: 1px;
+    line-height: 1.95;
+    font-weight: bolder;
+    width: 35%;
+}
+.texte_numerique h1{
+    color: #ee1d48;
+}
+/* body {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal; 
+} */
+
 
 .Nouv{
     text-align: center;
@@ -285,17 +283,17 @@ nav li:last-child a {
     width: 70%;
     display: flex;
     justify-content: center;
-    margin-right: 10vh;
-    margin-left: 30vh;
-    /* padding-right: 10vh;
-    padding-left: 10vh; */
+    margin-right: 10px;
+    margin-left: 30px;
+    /* padding-right: 10px;
+    padding-left: 10px; */
 }
 .evenement{
     color: white;
 }
 
 .even1{
-    width: 110vh;
+    width: 110px;
     /* padding-right: 10px;
     padding-left: 10px; */
     margin-right: 10px;
@@ -303,14 +301,14 @@ nav li:last-child a {
     background-color:#ee1d48;
 }
 /* .even1 h5,.even2 h5{
-    margin-left: 10vh;
+    margin-left: 10px;
 } */
 .even2{
-    width: 110vh;
+    width: 110px;
     padding-top: 2px;
     /* padding-right: 10px;
     padding-left: 10px; */
-    margin-right: 20vh;
+    margin-right: 20px;
     display: flex;
     background-color:#ee1d48;
 }
@@ -357,9 +355,9 @@ width: 80%;
     height: 200px;
     margin-top: -100px;
     background-color: rgba(215, 19, 67, 0.925); 
-    width: 75%;
+    width: 85%;
     margin-left: 5%;
-    padding-left: 15%;
+    padding-left: 10%;
     margin-right: 5%;
 }
 .info h1{
@@ -370,8 +368,6 @@ padding-left: 0%;
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
     padding-bottom: 90px;
-
-
 }
 .contain{
     height: 700px;
@@ -381,7 +377,7 @@ padding-left: 0%;
         font-family: 'Courier New', Courier, monospace;
         color: white;
         font-weight: bold;
-        font-size: 70px;
+        font-size: 50px;
         padding-left: 160px;
         padding-top: 150px;
 }
@@ -418,8 +414,8 @@ padding-left: 0%;
 }
 button{
     position: absolute;
-        margin-top: 30vh;
-        margin-left: -3vh;
+        margin-top: 30px;
+        margin-left: -3px;
         background-color: #ee1d48;
         color:#fff;
         border: #ee1d48 1px solid;
@@ -431,7 +427,7 @@ button{
     border: #fff 1px solid;
     border-radius: 10px;
     padding-right: 30px;
-    padding-left: 30vh;
+    padding-left: 30px;
 }
 .image{
     height: 150px;
@@ -454,7 +450,7 @@ hr{
 }
 .rafetal{
     display: flex;
-    margin-left: -100vh;
+    margin-left: -100px;
 }
 .point{
     background-color: #ee1d48;
@@ -485,7 +481,7 @@ hr{
 .alumni,.petitehistoire{
     display: flex;
     margin-top: 100px;
-    padding: -5vh;
+    padding: -5px;
 }
 .video{
     margin-left: 150px;
@@ -821,3 +817,717 @@ a:hover {
     justify-content: space-between;
     background-color: #cf3034;
 }                                  
+
+
+@media screen and (max-width: 900px) and (min-width: 150px)  {*
+    body{
+        margin: 0 auto;
+    }
+    nav{
+        display: none;
+    }
+    .section1{
+        .logo{
+            height: 100px;
+            margin: 0 auto;
+            padding-bottom: 10px;
+        }
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .image26{
+        height: 400px;
+        width: 100%;
+    }
+    .banière{
+        width: 100%;
+    }
+    .texte_description{
+        bottom: 20px; /* Ajuste la position verticale */
+        left: 5%;
+        padding: 5px;
+        border-radius: 10px;
+        color: white;
+        font-size: 12px;
+    }
+    .button-contact{
+        background-color: rgb(194, 10, 10);
+        color: white;
+        padding: 12px 15px; /* Remplissage intérieur du bouton */
+        font-size: 12px;
+        border: none; /* Supprimer la bordure */
+        border-radius: 25px 25px 25px 25px; /* Coins arrondis */
+    }
+    .image26{
+        height: 40%;
+        width: 100%;
+    }
+    .section3{
+        display: block;
+        /* margin-right: 10px;
+        margin-left: 10px; */
+        padding-left: 30px;
+        background-color:#fdf7f8;
+    }
+    .section3{
+        width: auto;
+        display: inline-block;
+        margin: 20%;
+    }
+    .section3 img{
+        margin-top: 5px;
+        width: 40%;
+        border-radius: 30px;
+        height: 40%;
+    }
+    .texte_numerique{
+        font-weight: bolder;
+        font-size: 13px;
+        width: 100%;
+    }
+    .texte_numerique h1{
+        color: #ee1d48;
+        font-size: 15px;
+    }
+    /* body {
+        font-family: Arial, sans-serif;
+        font-weight: normal;
+        font-style: normal; 
+    } */
+    
+    
+    .Nouv{
+        text-align: center;
+        color: rgb(194, 10, 10);
+        font-size: 18px;
+    }
+    .Actualité1{
+        text-align: center;
+        color: rgb(194, 10, 10);
+        font-size: 15px;
+    }
+    .Actus{
+        display: block;
+        margin-left: 20%;
+    }
+    .Actusimg{
+        width: 300px;
+        height: 200px;
+        display: block;
+        border: 1px solid #ddd; /* Ajoutez une bordure pour plus de visibilité */
+        border-radius: 8px; /* Coins arrondis, facultatif */
+        
+    }
+    /*.Actualité2 p{
+        max-width: 600px; /* Ajustez la largeur selon vos besoins */
+        /*margin: 0 auto; /* Centre le texte horizontalement 0 auto*/
+        /*padding: 15px;
+    }*/
+    
+    .Actusp{
+        color:rgb(109, 107, 107);
+    }
+    .date-label {
+        position:absolute;
+        /*text-align: center;*/
+        bottom: 310px;
+        left:230px;
+        padding: 5px;
+        padding-top: 3px;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        color: white;
+        background-color: rgb(194, 10, 10);
+        border: none;
+        border-radius: 0 0 25px 25px;
+        width: 18px;
+        height: 28px;
+    }
+    
+    /* Style pour le jour (en haut) */
+    .day {
+        display: block;
+        font-weight: bold;
+        padding-top:7px;
+    }
+    
+    /* Style pour le mois (en bas) */
+    .month {
+        display: block;
+        margin-top: 0px; /* Ajustez cette valeur selon vos besoins pour le positionnement */
+        font-size: 7px;
+        opacity: 1;
+        letter-spacing: 2px;
+    }
+    .Actusplus{
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .Actusplush2{
+        color:rgb(194, 10, 10);
+        margin-left: 40px;
+        font-size: 15px;
+    }
+    .button-Actusplus{
+        background-color: rgb(194, 10, 10);
+        color: white;
+        font-size: 12px;
+        border: none; /* Supprimer la bordure */
+        border-radius: 50%; /* Coins arrondis */
+        width: 20px;
+        height: 20px;
+    }
+    .plus{
+        font-weight: bold;
+        font-size: 25px;
+        margin:-12px;
+        margin-top: -18px;
+    }
+    
+    .even{
+        
+        display: block;
+        width: 100%;
+        justify-content: center;
+        margin-right: 10px;
+        margin-left: 30px;
+        /* padding-right: 10px;
+        padding-left: 10px; */
+    }
+    .evenement{
+        color: white;
+    }
+    
+    .even1{
+        width: 80%;
+        /* padding-right: 10px;
+        padding-left: 10px; */
+        margin-right: 10px;
+        display: flex;
+        background-color:#ee1d48;
+    }
+    /* .even1 h5,.even2 h5{
+        margin-left: 10px;
+    } */
+    .even2{
+        width: 80%;
+        padding-top: 20px;
+        margin-top: 5px;
+        /* padding-right: 10px;
+        padding-left: 10px; */
+        margin-right: 20px;
+        display: flex;
+        background-color:#ee1d48;
+    }
+    .mois{
+        margin-bottom: 2px;
+        margin-top: 10px;
+    }
+    .date{
+        padding-right: 10px;
+        padding-top: 2px;
+    }
+    .date p span{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .even p{
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .image-container {
+        color: white;
+        height: 50%;
+        font-family: Arial, sans-serif;
+        background-image: url('Images/35.png'); /* Remplacez avec le chemin de votre image */
+        background-size: cover; /* Ajuste la taille de l'image pour couvrir tout l'élément body */
+        background-position: center; /* Centre l'image horizontalement */
+        background-repeat: no-repeat; 
+    }
+    .image-container p{
+        padding-bottom: 190px;
+    }
+    .overflay-box {
+    width: 80%;
+        height: 200px;
+    /* Rouge transparent */
+        color: #fff; /* Texte blanc */
+        text-align: center;
+       /* Centrer le texte verticalement */
+    }
+    .resultat{
+        position: absolute;
+        display: flex;
+        height: 200px;
+        margin-top: -100px;
+        background-color: rgba(215, 19, 67, 0.925); 
+        width: 85%;
+        margin-left: 5%;
+        padding-left: 10%;
+        margin-right: 5%;
+    }
+    .info h1{
+    color: white;
+    padding-left: 0%;
+    }
+    .info p{
+        text-align: center;
+        color: rgba(255, 255, 255, 0.7);
+        padding-bottom: 90px;
+    }
+    .contain{
+        height: 700px;
+        padding-bottom: 70px;
+    }
+       .contain h4{
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+            font-weight: bold;
+            font-size: 50px;
+            padding-left: 160px;
+            padding-top: 150px;
+    }
+    
+    .contain p{
+        padding-left: 10%;
+    }
+    .contain h1{
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .info{
+        text-align: center;
+        padding-left: 45px;
+    }
+    
+    .Formateur{
+        display: flex;
+        background-color: whitesmoke;
+        padding-left: 100px;
+        padding-right: 30px;
+        height: 100px;
+    }
+    .formateur1{
+        display: flex;
+    }
+    /* .Formateur p,.Formateur h1{
+        margin-top: 40px;
+    } */
+    .fleche{
+        background-color: #fff;
+        padding: 2px;
+    }
+    button{
+        position: absolute;
+            margin-top: 30px;
+            margin-left: -3px;
+            background-color: #ee1d48;
+            color:#fff;
+            border: #ee1d48 1px solid;
+            border-radius: 10px;
+    }
+    .form{
+        background-color: #fff;
+        margin-top: 50px;
+        border: #fff 1px solid;
+        border-radius: 10px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .image{
+        height: 150px;
+        width: 150px;
+        background-image: url("Images/19.png");
+        background-size: cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+    hr{
+        width: 200px;
+        margin-left: 0;
+    }
+    #formateur1{
+        margin-right: 50px;
+    }
+    .rafetal{
+        display: flex;
+        margin-left: -100px;
+    }
+    .point{
+        background-color: #ee1d48;
+        width: 10px;
+        height: 10px;
+        border: #ee1d48 1px solid;
+        border-radius: 15px;
+        margin-top: 299px;
+    }
+    #point{
+        margin-right: 10px;
+    
+    }
+    .trait{
+        width: 30px;
+        height: 8px;
+        background-color: #ee1d48;
+        border: #ee1d48 1px solid;
+        border-radius: 10Px;
+        margin-top: 299px;
+        margin-left: 10px;
+    }
+    .histoire{
+        display: flex;
+        margin-top: 150px;
+        padding: 100px;
+    }
+    .alumni,.petitehistoire{
+        display: flex;
+        margin-top: 100px;
+        padding: -5px;
+    }
+    .video{
+        margin-left: 150px;
+        height: 300px;
+        width: 500px;
+    
+    }
+    
+    .time{
+        height: 20px;
+        width: 60px;
+        color: #FFF;
+        background-color: #ee1d48;
+        transform: translate(-50%, -50%);
+        margin-top: -50px;
+        margin-left: 300px;
+        padding:5px 15px 30px 15px;
+      
+    }
+    .time h3{
+        margin-top: 6px;
+        margin-left: -3px;
+    }
+    
+    #play,#play1{
+        height: 75px;
+        width: 75px;
+        opacity: 0.65;
+        margin-bottom: 120px;
+        margin-left: -250px;
+    }
+    .section-histoire{
+        margin-top: 30px;
+            display: flex;
+            padding-left: 10%;
+    }
+    
+        .section-histoire .texte-contenaire{
+            width: 80%;
+            line-height: 1.9;
+            font-size: 30px;
+    }
+    .titre-formateurs{
+        color: #cf3034;
+        font-size: 32px;
+        margin-left: 50px;
+    }
+    #apprenant,#apprenant1{
+        height: 300px;
+    }
+    #apprenant1{
+        width: 350px;
+    
+    }
+    .equipe{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #section-histoire1{
+        margin-top: -100px;
+    }
+    .formateur-equipe{
+        width: 320px;
+        height: 380px;
+        margin-top: 100px;
+        box-shadow: 0px 0px 3px 4px rgba(98, 94, 94, 0.18);
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 50px;
+        border-radius: 0px 0px 20px 20px;
+        display: grid;
+    }
+    .formateur-equipe p{
+        text-align: left;
+        padding-top: 22px;
+        padding-left: 30px;
+        line-height: 1.5;
+    }
+    .footer-title h2{
+        text-align: start;
+    }
+    .footer-title p{
+        text-align: start;
+    }
+    .formateur-footer{
+        display: flex;
+        padding-left: 3px;
+    }
+    .formateur-footer img{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    }
+    .footer-title{
+        padding-left: 10px;
+    }
+    .section-histoire{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .image-contenaire{
+        width: 1200px;
+        height: 600px;
+        margin-top: 80px;
+        box-shadow: 0px 0px 3px 4px rgba(98, 94, 94, 0.18);
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 50px;
+        border-radius: 0px 0px 20px 20px;
+    }
+    .image-contenaire img{
+    
+        border-bottom: 8px solid #cf3034;
+        width: 100%;
+        height:80%;
+    }
+    .image-contenaire h3{
+        margin-top: 30px;
+        margin-left: -40px;
+        padding-left: 10px;
+        padding-top: 10px;
+        background: #cf3034;
+        color: #ffff;
+        width: 300px;
+        height: 35px;
+        position: absolute;
+        border-radius: 0px 20px 20px 0px;
+        box-shadow: 0px 1px 1px 1px rgba(130, 128, 128, 0.499);
+    
+    }
+    .video p:last-child{
+        margin-top: 20px;
+        font-weight: bolder;
+        font-size: larger;
+        border-top: #ee1d48 7px solid;
+    }
+    .texte{
+        margin-left: 50px;
+        font-size: larger;
+        line-height: 1.5;
+    }
+    .texte1{
+        margin-left: 250px;
+        font-size: larger;
+        line-height: 1.5;
+    }
+    .texte h1,.texte1 h1{
+        color: #ee1d48;
+    }
+    .Formulaire{
+        display: flex;
+        justify-content: center;
+    }
+    .h1{
+        text-align: center;
+        color: #ee1d48;
+        margin-top: 120px;
+    }
+    
+    .container {
+        max-width: 600px;
+        margin: 30px 60px;
+        padding: 20px;
+        background-color: #f4f4f4;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    /* code footer */
+    .nous-contacter{
+        input{
+            background-color: rgb(255,255,255);
+        }
+    }
+    footer {
+        font-family: 'Nunito Sans', sans-serif;
+        padding-top: 50px;
+        padding-bottom: 70px;
+        background-color:#000;
+        color: #ffff;
+        display: flex;
+        justify-content: space-around;
+    }
+    .nous-contacter{
+        margin-bottom: 90px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .carte2 {
+        display: grid;
+    }
+    
+    .carte1 {
+        display: grid;
+    }
+    
+    .carte2 a {
+        text-decoration: none;
+        color: #ffff;
+    }
+    
+    a:hover {
+        color: #cf3034;
+    }
+    
+    .social1 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .social1 img{
+        margin: 10px;
+    }
+    
+    .carte3 p {
+        font-size: 20px;
+    }
+    
+    .carte4 p {
+        font-size: 20px;
+    }
+    
+    .Newsletter {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    
+    .Newsletter .input {
+        background-color: #ffff;
+        border-radius: 15px 0px 0px 15px;
+        margin-right: 0px;
+        padding-right: 8px;
+        width: 200px;
+        height: 50px;
+    }
+    
+    .Newsletter input {
+        font-size: 18px;
+        color: #ffff;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: solid 1px transparent;
+        border-radius: 0px 15px 15px 0px;
+        background-color: #cf3034;
+        width: 100px;
+        height: 50px;
+    }
+    .h1nº1{
+        display: flex;
+        font-size: 48px;
+        color: #cf3034;
+        justify-content: center;
+    }
+    .copy {
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #ffff;
+        display: flex;
+        justify-content: space-between;
+        background-color: #cf3034;
+    }
+         /* code footer */
+    
+    footer {
+        font-family: 'Nunito Sans', sans-serif;
+        padding-top: 50px;
+        padding-bottom: 70px;
+        background-color:#000;
+        color: #ffff;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .carte1 {
+        display: grid;
+    }
+    
+    .carte2 a {
+        text-decoration: none;
+        color: #ffff;
+    }
+    
+    a:hover {
+        color: #cf3034;
+    }
+    
+    .social1 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .social1 img{
+        margin: 10px;
+    }
+    
+    .carte3 p {
+        font-size: 20px;
+    }
+    
+    .carte4 p {
+        font-size: 20px;
+    }
+    
+    .Newsletter {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    
+    .Newsletter .input {
+        background-color: #ffff;
+        border-radius: 15px 0px 0px 15px;
+        margin-right: 0px;
+        padding-right: 8px;
+        width: 200px;
+        height: 50px;
+    }
+    
+    .Newsletter input {
+        font-size: 18px;
+        color: #ffff;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: solid 1px transparent;
+        border-radius: 0px 15px 15px 0px;
+        background-color: #cf3034;
+        width: 100px;
+        height: 50px;
+    }
+    
+    .copy {
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #ffff;
+        display: flex;
+        justify-content: space-between;
+        background-color: #cf3034;
+    }                                      
+}
+
+@media screen and (min-width: 1000px) and (max-width:1500){
+
+}
