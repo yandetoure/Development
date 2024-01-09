@@ -8,7 +8,7 @@ body {
 }
 .section1{
     display: flex;
-}
+    }
 /* .ban{
     position: absolute;
     width: 100%;
@@ -32,7 +32,7 @@ nav {
 
 nav ul {
     list-style-type: none;
-    margin: 50px 0 0 300px;
+    margin: 10px 0 0 200px;
     padding: 0;
     overflow: hidden;
 }
@@ -49,31 +49,31 @@ nav li {
     font-size: 30px;
 }
 
-nav li a, .dropbtn {
+ nav li a, .dropbtn {
     font-weight:bold;
     display: inline-block;
-    color: #101820;
+color: #101820;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-nav li a:hover, .dropdown:hover .dropbtn {
+        nav li a:hover, .dropdown:hover .dropbtn {
     background-color: #555;
 }
 
 nav li.dropdown {
     display: inline-block;
-}
+    }
 
-.dropdown-content {
+        .dropdown-content {
     display: none;
     position: absolute;
     background-color: #101820;
     min-width: 160px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
-}
+    }
 
 .dropdown-content a {
     color: white;
@@ -82,7 +82,7 @@ nav li.dropdown {
     text-decoration: none;
 }
 
-/* .dropdown-content a:hover {
+        /* .dropdown-content a:hover {
     background-color: red;
 } */
 .dropdown .dropbtn {
@@ -97,7 +97,7 @@ nav li.dropdown {
     background-color: #ff0000;
     border: 1px solid #ff0000;
     border-radius: 15px;
-
+    
 }
 nav li:last-child a {
     color: white; /* Couleur blanche pour le texte "Contact" */
@@ -112,6 +112,7 @@ nav li:last-child a {
     bottom: 50px; /* Ajuste la position verticale */
     right: 50%; /* Ajuste la position horizontale*/
     padding: 20px;
+    margin-bottom: -200px;
     border-radius: 10px;
     color: white;
     font-size: 25px;
@@ -124,11 +125,12 @@ nav li:last-child a {
     font-size: 16px;
     border: none; /* Supprimer la bordure */
     border-radius: 25px 25px 25px 25px; /* Coins arrondis */
+
 }
 .button-passage{
     text-align: center; /* Aligne les boutons au centre horizontalement */
     padding-top: 150px;
-    padding-left: 550px;
+    padding-left: 80px;
 }
 .button-rond{
     width: 12px;
@@ -151,7 +153,7 @@ nav li:last-child a {
     border-radius: 5px 5px 5px 5px;
 }
 .image26{
-    height: 800px;
+    height: 700px;
     width: 100%;
 }
 .section3{
@@ -163,22 +165,23 @@ nav li:last-child a {
 }
 .section3{
     height: 700px;
-    width: auto;
+    width: 100%;
 }
 .section3 img{
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 1px;
-    width: 60%;
+    width: 20%;
     border-radius: 30px;
-    height: 600px;
+    height: auto;
 
 }
 .texte_numerique{
     margin-top: 1px;
-    line-height: 1.95;
+    line-height: 2.5;
     font-weight: bolder;
-    width: 35%;
+    margin-left: 30px;
+    width: 45%;
 }
 .texte_numerique h1{
     color: #ee1d48;
@@ -189,13 +192,19 @@ nav li:last-child a {
     font-style: normal; 
 } */
 
+.nouvelles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
 .Nouv{
-    text-align: center;
+    display: flex;
+    align-items: center;
     color: rgb(194, 10, 10);
 }
 .Actualité1{
-    text-align: left;
+    text-align: center;
     color: rgb(194, 10, 10);
 }
 .Actus{
@@ -257,10 +266,11 @@ nav li:last-child a {
 .Actusplus{
     display: flex;
     align-items: center;
-    margin-left: 1200px;
+    margin-left: 5%;
 }
 .Actusplush2{
     color:rgb(194, 10, 10);
+    padding-left: 55px;
 }
 .button-Actusplus{
     background-color: rgb(194, 10, 10);
@@ -268,19 +278,24 @@ nav li:last-child a {
     font-size: 16px;
     border: none; /* Supprimer la bordure */
     border-radius: 50%; /* Coins arrondis */
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     margin:12px;
 }
 .plus{
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
     margin:-12px;
     margin-top: -18px;
 }
-
+h5{
+    color: #ff0000;
+    font-size: 20px;
+    text-align: end;
+    margin-right: 100px;
+}
 .even{
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: center;
     margin-right: 10px;
@@ -293,7 +308,7 @@ nav li:last-child a {
 }
 
 .even1{
-    width: 110px;
+    width: 40%;
     /* padding-right: 10px;
     padding-left: 10px; */
     margin-right: 10px;
@@ -304,7 +319,7 @@ nav li:last-child a {
     margin-left: 10px;
 } */
 .even2{
-    width: 110px;
+    width: 50%;
     padding-top: 2px;
     /* padding-right: 10px;
     padding-left: 10px; */
@@ -331,7 +346,7 @@ nav li:last-child a {
 }
 .image-container {
     color: white;
-    height: 50%;
+        height: 50%;
     font-family: Arial, sans-serif;
     background-image: url('Images/35.png'); /* Remplacez avec le chemin de votre image */
     background-size: cover; /* Ajuste la taille de l'image pour couvrir tout l'élément body */
@@ -355,7 +370,7 @@ width: 80%;
     height: 200px;
     margin-top: -100px;
     background-color: rgba(215, 19, 67, 0.925); 
-    width: 85%;
+    width: 80%;
     margin-left: 5%;
     padding-left: 10%;
     margin-right: 5%;
@@ -392,18 +407,22 @@ padding-left: 0%;
 }
 .info{
     text-align: center;
-    padding-left: 45px;
+    padding-left: 120px;
 }
 
 .Formateur{
-    display: flex;
     background-color: whitesmoke;
-    padding-left: 100px;
-    padding-right: 30px;
-    height: 100px;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
 }
 .formateur1{
     display: flex;
+    padding: 110px;
+}
+.texte{
+    color: #ff0000;
+    text-align: center;
 }
 /* .Formateur p,.Formateur h1{
     margin-top: 40px;
@@ -413,9 +432,8 @@ padding-left: 0%;
     padding: 2px;
 }
 button{
-    position: absolute;
-        margin-top: 30px;
-        margin-left: -3px;
+    margin-top: 250px;
+    margin-left: -40px;
         background-color: #ee1d48;
         color:#fff;
         border: #ee1d48 1px solid;
@@ -426,35 +444,36 @@ button{
     margin-top: 50px;
     border: #fff 1px solid;
     border-radius: 10px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-left: 120px;
+    width: 250px;
+    height: auto;
 }
 .image{
     height: 150px;
-    width: 150px;
+    width: 130px;
     background-image: url("Images/19.png");
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
     position: absolute;
+    box-shadow: 0px 0px 5px 4px rgba(98, 94, 94, 0.18);
     border: 1px solid white;
     border-radius: 10px;
-    margin-left: 20px;
-}
-hr{
-    width: 200px;
-    margin-left: 0;
+    margin-left: -20px;
 }
 #formateur1{
-    margin-right: 50px;
+    margin-right: 100px;
 }
 .rafetal{
     display: flex;
-    margin-left: -100px;
+    margin-left: 50%;
+    margin-right: 45%;
+    margin-top: -250px;
+
 }
 .point{
     background-color: #ee1d48;
-    width: 10px;
+    width: 15px;
     height: 10px;
     border: #ee1d48 1px solid;
     border-radius: 15px;
@@ -464,9 +483,14 @@ hr{
     margin-right: 10px;
 
 }
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .trait{
-    width: 30px;
-    height: 8px;
+    width: 80%;
+    height: 10px;
     background-color: #ee1d48;
     border: #ee1d48 1px solid;
     border-radius: 10Px;
@@ -475,13 +499,18 @@ hr{
 }
 .histoire{
     display: flex;
-    margin-top: 150px;
-    padding: 100px;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: auto;
 }
 .alumni,.petitehistoire{
     display: flex;
-    margin-top: 100px;
+    margin: auto;
     padding: -5px;
+}
+.alumni{
+    margin-bottom: 200px;
 }
 .video{
     margin-left: 150px;
@@ -491,7 +520,7 @@ hr{
 }
 
 .time{
-    height: 20px;
+    height: 15px;
     width: 60px;
     color: #FFF;
     background-color: #ee1d48;
@@ -524,10 +553,26 @@ hr{
         line-height: 1.9;
         font-size: 30px;
 }
+.titre-formateur{
+    color: #ff0000;
+    font-size: 15px;
+    margin-top: 130px;
+    margin-left: 15%;
+}
 .titre-formateurs{
     color: #cf3034;
     font-size: 32px;
-    margin-left: 50px;
+    margin-left: 30px;
+    h1{
+        font-size: 30px;
+        margin-left: 10%;
+    }
+}
+.souligne-formateur{
+    height: 1px;
+    width: 80px;
+    font-size: 10px;
+    margin-left: -1px;
 }
 #apprenant,#apprenant1{
     height: 300px;
@@ -836,7 +881,7 @@ a:hover {
         flex-wrap: wrap;
         text-align: center;
     }
-    .image26{
+        .image26{
         height: 400px;
         width: 100%;
     }
@@ -871,20 +916,22 @@ a:hover {
         background-color:#fdf7f8;
     }
     .section3{
-        width: auto;
-        display: inline-block;
-        margin: 20%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
     }
     .section3 img{
         margin-top: 5px;
-        width: 40%;
+        width: 60%;
         border-radius: 30px;
-        height: 40%;
+        height: 40%
     }
     .texte_numerique{
         font-weight: bolder;
         font-size: 13px;
-        width: 100%;
+        width: 60%;
     }
     .texte_numerique h1{
         color: #ee1d48;
@@ -987,12 +1034,12 @@ a:hover {
     }
     
     .even{
-        
-        display: block;
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        justify-content: center;
-        margin-right: 10px;
-        margin-left: 30px;
+        height: auto;
+        align-items: center;
+
         /* padding-right: 10px;
         padding-left: 10px; */
     }
@@ -1001,26 +1048,15 @@ a:hover {
     }
     
     .even1{
-        width: 80%;
-        /* padding-right: 10px;
-        padding-left: 10px; */
+        width: 50%;
+        height: 100px;
+        padding-left: 10%;
         margin-right: 10px;
         display: flex;
         background-color:#ee1d48;
+        margin-bottom: 5px;
     }
-    /* .even1 h5,.even2 h5{
-        margin-left: 10px;
-    } */
-    .even2{
-        width: 80%;
-        padding-top: 20px;
-        margin-top: 5px;
-        /* padding-right: 10px;
-        padding-left: 10px; */
-        margin-right: 20px;
-        display: flex;
-        background-color:#ee1d48;
-    }
+
     .mois{
         margin-bottom: 2px;
         margin-top: 10px;
@@ -1040,7 +1076,7 @@ a:hover {
     }
     .image-container {
         color: white;
-        height: 50%;
+        height: 100%;
         font-family: Arial, sans-serif;
         background-image: url('Images/35.png'); /* Remplacez avec le chemin de votre image */
         background-size: cover; /* Ajuste la taille de l'image pour couvrir tout l'élément body */
@@ -1048,11 +1084,11 @@ a:hover {
         background-repeat: no-repeat; 
     }
     .image-container p{
-        padding-bottom: 190px;
+        padding-bottom: 10px;
     }
     .overflay-box {
     width: 80%;
-        height: 200px;
+        height: 100px;
     /* Rouge transparent */
         color: #fff; /* Texte blanc */
         text-align: center;
@@ -1061,8 +1097,8 @@ a:hover {
     .resultat{
         position: absolute;
         display: flex;
-        height: 200px;
-        margin-top: -100px;
+        height: 100px;
+        margin-top: -50px;
         background-color: rgba(215, 19, 67, 0.925); 
         width: 85%;
         margin-left: 5%;
@@ -1076,41 +1112,46 @@ a:hover {
     .info p{
         text-align: center;
         color: rgba(255, 255, 255, 0.7);
-        padding-bottom: 90px;
+        padding-bottom: 10px;
+    }
+    .info span{
+        font-size: 18px;
+        text-align: center;
     }
     .contain{
-        height: 700px;
+        height: 400px;
         padding-bottom: 70px;
     }
        .contain h4{
             font-family: 'Courier New', Courier, monospace;
             color: white;
             font-weight: bold;
-            font-size: 50px;
-            padding-left: 160px;
+            font-size: 25px;
+            padding-left: 5%;
             padding-top: 150px;
     }
-    
     .contain p{
-        padding-left: 10%;
+        padding-left: 5%;
     }
     .contain h1{
         color: white;
-        font-size: 40px;
+        font-size: 18px;
         font-weight: bold;
     }
     .info{
         text-align: center;
         padding-left: 45px;
-    }
+            }
     
     .Formateur{
         display: flex;
+        flex-direction: column;
         background-color: whitesmoke;
-        padding-left: 100px;
+        padding-left: 60px;
         padding-right: 30px;
-        height: 100px;
-    }
+        height: auto;
+        margin-top: 60px;
+            }
     .formateur1{
         display: flex;
     }
@@ -1119,12 +1160,12 @@ a:hover {
     } */
     .fleche{
         background-color: #fff;
-        padding: 2px;
+        padding: 1px;
     }
     button{
         position: absolute;
-            margin-top: 30px;
-            margin-left: -3px;
+            margin-top: 180px;
+            margin-left: -90px;
             background-color: #ee1d48;
             color:#fff;
             border: #ee1d48 1px solid;
@@ -1132,7 +1173,7 @@ a:hover {
     }
     .form{
         background-color: #fff;
-        margin-top: 50px;
+        margin-top: 150px;
         border: #fff 1px solid;
         border-radius: 10px;
         padding-right: 30px;
@@ -1141,6 +1182,7 @@ a:hover {
     .image{
         height: 150px;
         width: 150px;
+        align-items: center;
         background-image: url("Images/19.png");
         background-size: cover;
         background-position:center;
@@ -1148,10 +1190,10 @@ a:hover {
         position: absolute;
         border: 1px solid white;
         border-radius: 10px;
-        margin-left: 20px;
+        margin-left: 20%;
     }
     hr{
-        width: 200px;
+        width: 100%;
         margin-left: 0;
     }
     #formateur1{
@@ -1159,7 +1201,8 @@ a:hover {
     }
     .rafetal{
         display: flex;
-        margin-left: -100px;
+        margin-left: 10%;
+        margin-top: -250px
     }
     .point{
         background-color: #ee1d48;
@@ -1184,30 +1227,33 @@ a:hover {
     }
     .histoire{
         display: flex;
-        margin-top: 150px;
+        height: auto;
+        margin-top: 10px;
         padding: 100px;
     }
     .alumni,.petitehistoire{
         display: flex;
-        margin-top: 100px;
-        padding: -5px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .alumni{
+        margin: 150px;
     }
     .video{
         margin-left: 150px;
         height: 300px;
         width: 500px;
-    
     }
     
     .time{
         height: 20px;
-        width: 60px;
+        width: 30px;
         color: #FFF;
         background-color: #ee1d48;
         transform: translate(-50%, -50%);
         margin-top: -50px;
         margin-left: 300px;
-        padding:5px 15px 30px 15px;
+        padding: 2px 5px 10px 5px;
       
     }
     .time h3{
@@ -1216,11 +1262,11 @@ a:hover {
     }
     
     #play,#play1{
-        height: 75px;
-        width: 75px;
+        height: 45px;
+        width: 45px;
         opacity: 0.65;
         margin-bottom: 120px;
-        margin-left: -250px;
+        margin-left: -190px;
     }
     .section-histoire{
         margin-top: 30px;
@@ -1235,7 +1281,7 @@ a:hover {
     }
     .titre-formateurs{
         color: #cf3034;
-        font-size: 32px;
+        font-size: 25px;
         margin-left: 50px;
     }
     #apprenant,#apprenant1{
@@ -1247,36 +1293,37 @@ a:hover {
     }
     .equipe{
         display: flex;
-        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
     }
     #section-histoire1{
         margin-top: -100px;
     }
     .formateur-equipe{
-        width: 320px;
-        height: 380px;
-        margin-top: 100px;
+        width: 65%;
+        margin-top: 10px;
         box-shadow: 0px 0px 3px 4px rgba(98, 94, 94, 0.18);
-        margin-left: 80px;
-        margin-right: 80px;
         margin-bottom: 50px;
         border-radius: 0px 0px 20px 20px;
-        display: grid;
     }
     .formateur-equipe p{
-        text-align: left;
-        padding-top: 22px;
-        padding-left: 30px;
-        line-height: 1.5;
+        text-align: center;
+        padding-top: 2px;
     }
     .footer-title h2{
         text-align: start;
+        font-size: 16px;
     }
     .footer-title p{
         text-align: start;
+        font-size: 14px;
     }
     .formateur-footer{
         display: flex;
+        flex-direction: column;
+        align-items: center;
         padding-left: 3px;
     }
     .formateur-footer img{
@@ -1334,7 +1381,7 @@ a:hover {
         line-height: 1.5;
     }
     .texte1{
-        margin-left: 250px;
+  text-align: center;
         font-size: larger;
         line-height: 1.5;
     }
